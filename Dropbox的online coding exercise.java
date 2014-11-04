@@ -37,11 +37,11 @@ public class DFS {
 	}
 
 	private int validPatternCore(String str, 
-							     String pattern, 
-							     int strIndex, 
-							     int patIndex, 
-							     Map<Character, String> map,
-							     Set<String> set) {
+				     String pattern, 
+				     int strIndex, 
+				     int patIndex, 
+				     Map<Character, String> map,
+				     Set<String> set) {
 		if (strIndex == str.length() && patIndex == pattern.length()) {
 			return 1;
 		}
